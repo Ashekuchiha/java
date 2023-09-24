@@ -20,12 +20,12 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author shakil
  */
-public class Category extends javax.swing.JFrame {
+public class pos extends javax.swing.JFrame {
 
     /**
      * Creates new form Category
      */
-    public Category() {
+    public pos() {
         initComponents();
         table_update();
     }
@@ -333,10 +333,10 @@ public class Category extends javax.swing.JFrame {
                 }
                 
             } catch (ClassNotFoundException ex) {
-                Logger.getLogger(Category.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(pos.class.getName()).log(Level.SEVERE, null, ex);
             }  
         } catch (SQLException ex) {
-            Logger.getLogger(Category.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(pos.class.getName()).log(Level.SEVERE, null, ex);
         }
         
     }
@@ -360,9 +360,9 @@ public class Category extends javax.swing.JFrame {
             txtCat.requestFocus();
             
         } catch (ClassNotFoundException ex) {
-            Logger.getLogger(Category.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(pos.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
-            Logger.getLogger(Category.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(pos.class.getName()).log(Level.SEVERE, null, ex);
         }
         
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -391,9 +391,9 @@ public class Category extends javax.swing.JFrame {
             txtStatus.setSelectedIndex(-1);
             txtCat.requestFocus();
         } catch (SQLException ex) {
-            Logger.getLogger(Category.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(pos.class.getName()).log(Level.SEVERE, null, ex);
         } catch (ClassNotFoundException ex) {
-            Logger.getLogger(Category.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(pos.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         
@@ -430,16 +430,16 @@ public class Category extends javax.swing.JFrame {
                 txtCat.requestFocus();
             
             } catch (ClassNotFoundException ex) {
-                Logger.getLogger(Category.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(pos.class.getName()).log(Level.SEVERE, null, ex);
             } catch (SQLException ex) {
-                Logger.getLogger(Category.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(pos.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
         // TODO add your handling code here:
-        Category c = new Category();
+        pos c = new pos();
         this.hide();
         c.setVisible(true);
     }//GEN-LAST:event_jLabel2MouseClicked
@@ -475,20 +475,21 @@ public class Category extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Category.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Category.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Category.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Category.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Category().setVisible(true);
+                new pos().setVisible(true);
             }
         });
     }

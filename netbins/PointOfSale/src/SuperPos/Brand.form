@@ -55,15 +55,22 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel5" min="-2" pref="206" max="-2" attributes="0"/>
-                      <Component id="jLabel4" min="-2" pref="206" max="-2" attributes="0"/>
-                      <Component id="jLabel3" min="-2" pref="206" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" pref="206" max="-2" attributes="0"/>
-                      <Component id="jLabel6" min="-2" pref="206" max="-2" attributes="0"/>
-                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel5" min="-2" pref="206" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" pref="206" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" pref="206" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" pref="206" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" pref="206" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace pref="26" max="32767" attributes="0"/>
               </Group>
@@ -72,10 +79,10 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="137" max="-2" attributes="0"/>
-                  <Component id="jLabel2" min="-2" pref="53" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
                   <Component id="jLabel6" min="-2" pref="53" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" pref="53" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jLabel1" min="-2" pref="53" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
@@ -84,7 +91,7 @@
                   <Component id="jLabel4" min="-2" pref="53" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jLabel5" min="-2" pref="53" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="126" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -112,7 +119,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="99" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Category  &gt;&gt;"/>
+            <Property name="text" type="java.lang.String" value="brand  &gt;&gt;"/>
           </Properties>
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel2MouseClicked"/>
@@ -159,7 +166,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="99" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Brand"/>
+            <Property name="text" type="java.lang.String" value="category"/>
           </Properties>
           <Events>
             <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel6MouseClicked"/>
@@ -231,7 +238,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Showcard Gothic" size="24" style="3"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="category"/>
+            <Property name="text" type="java.lang.String" value="brand"/>
           </Properties>
         </Component>
         <Container class="javax.swing.JPanel" name="jPanel3">
@@ -241,7 +248,7 @@
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                <TitledBorder title="Category">
+                <TitledBorder title="Brand">
                   <Font PropertyName="font" name="Showcard Gothic" size="12" style="0"/>
                   <Color PropertyName="color" blue="0" green="66" red="cc" type="rgb"/>
                 </TitledBorder>
@@ -262,7 +269,7 @@
                       <EmptySpace pref="18" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="txtCat" min="-2" pref="162" max="-2" attributes="0"/>
+                              <Component id="txtBrand" min="-2" pref="162" max="-2" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
                                   <Component id="jButton2" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -281,7 +288,7 @@
                       <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtCat" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtBrand" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -308,7 +315,7 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="0" green="99" red="ff" type="rgb"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Category"/>
+                <Property name="text" type="java.lang.String" value="Brand"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel10">
@@ -322,7 +329,7 @@
                 <Property name="text" type="java.lang.String" value="Status"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txtCat">
+            <Component class="javax.swing.JTextField" name="txtBrand">
             </Component>
             <Component class="javax.swing.JComboBox" name="txtStatus">
               <Properties>
@@ -381,7 +388,7 @@
                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                   <Table columnCount="3" rowCount="0">
                     <Column editable="true" title="ID" type="java.lang.Integer"/>
-                    <Column editable="true" title="CATEGORY" type="java.lang.String"/>
+                    <Column editable="true" title="Brand" type="java.lang.String"/>
                     <Column editable="true" title="STATUS" type="java.lang.String"/>
                   </Table>
                 </Property>
