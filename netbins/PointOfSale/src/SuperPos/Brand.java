@@ -90,6 +90,11 @@ public class Brand extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Showcard Gothic", 3, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 153, 0));
         jLabel3.setText("pos");
+        jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel3MouseClicked(evt);
+            }
+        });
 
         jLabel4.setFont(new java.awt.Font("Showcard Gothic", 3, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 153, 0));
@@ -461,6 +466,13 @@ public class Brand extends javax.swing.JFrame {
         this.hide();
         p.setVisible(true);
     }//GEN-LAST:event_jLabel1MouseClicked
+
+    private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
+        // TODO add your handling code here:
+        pos p = new pos();
+        this.hide();
+        p.setVisible(true);
+    }//GEN-LAST:event_jLabel3MouseClicked
 
     /**
      * @param args the command line arguments

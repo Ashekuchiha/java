@@ -135,6 +135,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="pos"/>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel3MouseClicked"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
@@ -402,10 +405,10 @@
                     <Column editable="false" title="Description" type="java.lang.String"/>
                     <Column editable="false" title="Category" type="java.lang.Integer"/>
                     <Column editable="false" title="Brand" type="java.lang.Integer"/>
-                    <Column editable="false" title="Cost Price" type="java.lang.Integer"/>
-                    <Column editable="false" title="Retail Price" type="java.lang.Integer"/>
+                    <Column editable="false" title="Retail price" type="java.lang.Integer"/>
                     <Column editable="false" title="Qty" type="java.lang.Integer"/>
                     <Column editable="false" title="Barcode" type="java.lang.Integer"/>
+                    <Column editable="false" title="Cost price" type="java.lang.Integer"/>
                     <Column editable="false" title="Status" type="java.lang.String"/>
                   </Table>
                 </Property>
